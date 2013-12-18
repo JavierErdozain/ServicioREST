@@ -27,11 +27,9 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-app.get('/recepcion/:id', function(){
 
-	routes.RecuperarInfoRecepcion();
+app.get('/recepcion/:id', routes.RecuperarInfoRecepcion);
 
-	});
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
