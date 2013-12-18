@@ -4,7 +4,7 @@ exports.conexion = function(){
 	return mysql.createConnection({
 		user:'sinc',
 		password:'passinc',
-		host:'54.200.39.128',
+		host:'localhost',
 		port:3306,
 		database:'test'
 	})
