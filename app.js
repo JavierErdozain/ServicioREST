@@ -29,7 +29,7 @@ if ('development' == app.get('env')) {
 
 app.get('/recepcion/:id', function(){
 
-	routes.RecuperarInfoRecepcion(req.params.id);
+	routes.RecuperarInfoRecepcion();
 
 	});
 
