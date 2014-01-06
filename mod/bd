@@ -4,8 +4,12 @@ exports.conexion = function(){
 	return mysql.createConnection({
 		user:'sinc',
 		password:'passinc',
-		host:'172.31.9.192',
+		host:'54.200.39.128',
 		port:3306,
 		database:'test'
 	})
 }
+
+
+// host:'172.31.9.192'
+// host:'54.200.39.128'

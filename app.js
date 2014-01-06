@@ -28,6 +28,7 @@ if ('development' == app.get('env')) {
 }
 
 
+app.get('/ListadoRecepciones/:pagina', routes.RecuperarListadoRecepciones);
 app.get('/recepcion/:id', routes.RecuperarInfoRecepcion);
 
 
